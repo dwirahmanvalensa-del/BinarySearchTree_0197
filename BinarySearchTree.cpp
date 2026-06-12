@@ -4,7 +4,7 @@ using namespace std;
 //membuat class node
 class Node {
 
-    //memberi akses modifier serta mendeklarasikan variabel dan object node
+//memberi akses modifier serta mendeklarasikan variabel dan object node
 public:
     string info;
     Node* leftChild;
@@ -21,8 +21,13 @@ public:
 //membuat class binarytree
 class BinaryTree {
 
-    //memberi akses modifier serta mendeklarasikan variabel dan object node 
+//memberi akses modifier serta mendeklarasikan variabel dan object node 
 public:
     Node* ROOT;
+
+    //membuat constructor dan memberi nilai kepada object root
+    BinaryTree() {
+        ROOT = nullptr;
+    }
 
     
